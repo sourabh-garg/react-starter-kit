@@ -5,19 +5,13 @@ var app = express();                                                         // 
 
 app.use(bodyParser.json());
 
-var venueListing = require('./venueListing');
-//var nodeApi = require('./nodeApi');
+var wooplrRoute = require('./wooplrRoute');
 
 
-
-app.use('/js', express.static(path.join(__dirname, '../js')));               // setting paths for css
-app.use('/css', express.static(path.join(__dirname, '../css')));
-    // setting paths for favicon
+app.use('/asset', express.static(path.join(__dirname, '../asset')));               // setting paths for css
 
 
-
-app.use('/', venueListing);
-//app.use('/api', nodeApi);
+app.use('/', wooplrRoute);
 
 
 

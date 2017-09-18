@@ -11,21 +11,11 @@ export  function renderFullPage(html, preloadedState, head) {
         {
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "Playo",
-            "url": "https://playo.co" 
+            "name": "Wooplr",
+            "url": "https://wooplr.com" 
         }
     </script>
-      <meta charset="utf-8" />
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-54NDM4N');</script>
-    <!-- End Google Tag Manager -->
-  
-  
-  
+     
   
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -53,10 +43,8 @@ export  function renderFullPage(html, preloadedState, head) {
       <meta name="msapplication-TileColor" content="#558B2F" />
     </head>
     <body>
-    <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54NDM4N"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
+    
+    
       <div id="app">${html}</div>
 
       <script>
@@ -64,10 +52,11 @@ export  function renderFullPage(html, preloadedState, head) {
       </script>
 
 
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB08yhjYnar-DszQl7ecFJ1sYmN_p3VkWo&libraries=places" ></script>
-      <script type="text/javascript" src="/js/venueListing/vendor.js" ></script>
-      <script type="text/javascript" src="/js/venueListing/venueListing.js" ></script>
-
+     
+     
+     
+      <script type="text/javascript" src="/asset/vendor.js" ></script>
+     
       <script>
         if('serviceWorker' in navigator){
           navigator.serviceWorker.register('/sw.js')
@@ -83,41 +72,8 @@ export  function renderFullPage(html, preloadedState, head) {
         }
      </script> 
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1517806818505951',
-      xfbml      : true,
-      version    : 'v2.9'
-    });
-    FB.AppEvents.logPageView();
-  };
 
-  (function(d, s, id){
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
 
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
     </body>
   </html>
   `
