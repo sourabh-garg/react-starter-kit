@@ -17,12 +17,11 @@ if(typeof window !== 'undefined') {
   const preloadedState = window.__PRELOADED_STATE__;
   delete window.__PRELOADED_STATE__;
 
-  var viewport = window.matchMedia("screen and (max-width: 768px)");
+  let viewport = window.matchMedia("screen and (max-width: 768px)");
 
-  var stateWithViewPort = Object.assign({}, preloadedState , {
+  let stateWithViewPort = Object.assign({}, preloadedState , {
         ViewPort : viewport.matches ?  true : false
      });
-
 
 
   const store = configureStore(stateWithViewPort);

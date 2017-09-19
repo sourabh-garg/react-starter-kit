@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-
+import Carousel from '../CommonComponent/Carousel/carousel';
 
 
 
@@ -21,7 +21,11 @@ class Main extends React.Component{
 
     return (
       <div className="container">
-     Welcome
+
+       Welcome
+
+       {/*<Carousel />*/}
+
 
       </div>
     );

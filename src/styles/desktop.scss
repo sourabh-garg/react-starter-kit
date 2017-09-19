@@ -1,10 +1,39 @@
 @media only screen and (min-width: 760px) {
 
 
+  * {
+    margin: 0;
+    padding: 0;
+    color: grey;
+    letter-spacing: .5px;
+  }
+
+  *:focus {
+    outline: none;
+    -ms-touch-action: manipulation; /* IE10  */
+    touch-action: manipulation; /* IE11+ */
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  body {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    background-color: white;
+
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
   .jumbotron{
-
     width: 95%;
-
   }
 
   .flex{
