@@ -1,30 +1,33 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import Navbar from './CommonComponent/Navbar/navbar';
+import Footer from './CommonComponent/Footer/footer';
 
 
 
+class Main extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
 
 
- class Main extends React.Component{
-
-   constructor(props) {
-     super(props);
-   }
-
-
-
-
-  render () {
-
-
+  render() {
 
 
     return (
       <div className="container">
 
-         {this.props.children}
+        <Navbar/>
 
-          </div>
+        {this.props.children}
+
+
+        <Footer />
+
+
+
+      </div>
     );
   }
 
@@ -32,9 +35,7 @@ import {connect} from 'react-redux';
 
 
 function mapStateToProps(state) {
-  return {
-
-  };
+  return {};
 }
 
 export default connect(mapStateToProps)(Main);

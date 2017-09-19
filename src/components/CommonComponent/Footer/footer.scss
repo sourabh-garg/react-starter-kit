@@ -1,0 +1,71 @@
+.footer-div{
+
+  div:nth-of-type(2) , div:last-child{
+    margin-left: auto;
+  }
+
+  margin-top: 300px;
+
+
+}
+
+
+.footer-links{
+
+  p{
+    margin-bottom: 15px;
+    color: #FF5066;
+    font-weight: 600;
+    font-family: 'brandontext-medium', sans-serif;
+  }
+
+  li{
+    list-style: none;
+     margin-bottom: 10px;
+    a{
+       color: #6E6D6D;
+     }
+  }
+
+}
+
+.download-app-div{
+ margin-top: 20px;
+  margin-bottom: 30px;
+  a{
+    margin-right: 50px;
+    img{
+      height: 40px;
+    }
+  }
+
+
+}
+
+
+.social-icons{
+
+  a{
+    margin-right: 15px;
+
+    svg{
+      height: 25px;
+    }
+
+  }
+
+}
+
+
+.line-break{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.copyright{
+  color: #ADAAAA;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+

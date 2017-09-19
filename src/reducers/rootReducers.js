@@ -1,10 +1,12 @@
 import {combineReducers} from 'redux';
 import Settings from './settings';
+import ViewPort from './viewport';
+
 
 
 
 const rootReducers = combineReducers({
-    Settings
+  ViewPort ,  Settings
 
 });
 

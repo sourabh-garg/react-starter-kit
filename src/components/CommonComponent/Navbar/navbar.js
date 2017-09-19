@@ -1,8 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import Carousel from '../CommonComponent/Carousel/carousel';
-
-
+import TopHeader from './topHeader';
+import MainHeader from './mainHeader';
+import './navbar.scss';
 
 
 class Main extends React.Component{
@@ -21,11 +21,10 @@ class Main extends React.Component{
   render () {
 
     return (
-      <div className="container">
+      <div className="jumbotron">
 
-
-       {/*<Carousel />*/}
-
+        <TopHeader />
+        <MainHeader />
 
       </div>
     );

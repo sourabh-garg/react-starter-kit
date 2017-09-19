@@ -1,11 +1,24 @@
 @media only screen and (min-width: 760px) {
 
 
+
+  @font-face {
+    font-family: brandontext-regular;
+    src: url(./Fonts/brandontext-regular.woff);
+  }
+
+  @font-face {
+    font-family: brandontext-medium;
+    src: url(./Fonts/brandontext-medium.woff);
+  }
+
+
+
   * {
     margin: 0;
     padding: 0;
     color: grey;
-    letter-spacing: .5px;
+    letter-spacing: .2px;
   }
 
   *:focus {
@@ -17,7 +30,7 @@
   }
 
   body {
-    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-family: 'brandontext-regular', sans-serif;
     background-color: white;
 
   }
@@ -34,6 +47,7 @@
 
   .jumbotron{
     width: 95%;
+    margin: auto;
   }
 
   .flex{
@@ -44,6 +58,8 @@
   .text-center{
     text-align: center;
   }
+
+
 
 
 

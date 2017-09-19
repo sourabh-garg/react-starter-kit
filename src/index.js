@@ -2,6 +2,7 @@
   import {render} from 'react-dom';
   import './styles/desktop.scss';
   import './styles/mobile.scss';
+  import './styles/skeleton.scss';
   import 'babel-polyfill';
 
   import { Router , browserHistory} from "react-router";
@@ -19,7 +20,7 @@ if(typeof window !== 'undefined') {
 
   let viewport = window.matchMedia("screen and (max-width: 768px)");
 
-  let stateWithViewPort = Object.assign({}, preloadedState , {
+  var stateWithViewPort = Object.assign({}, preloadedState , {
         ViewPort : viewport.matches ?  true : false
      });
 
