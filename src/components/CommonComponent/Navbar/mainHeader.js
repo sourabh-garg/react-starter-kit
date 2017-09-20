@@ -3,6 +3,9 @@ import {connect} from 'react-redux';
 import SearchSvg from '../../../images/Icons/search';
 import AccountSvg from '../../../images/Icons/account';
 import BagSvg from '../../../images/Icons/bag';
+import Categories from './onHoverCategories';
+
+
 
 class Main extends React.Component{
 
@@ -24,6 +27,9 @@ class Main extends React.Component{
       <div className="navbar-bottom-shadow">
 
       <div className=" jumbotron main-header flex">
+
+
+        <Categories />
 
         <a href="" className="logo">
           <img   src="../../../images/wooplr.png" alt="wooplr-home"/>
