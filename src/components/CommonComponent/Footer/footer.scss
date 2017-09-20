@@ -1,70 +1,56 @@
-.footer-div{
-
-  div:nth-of-type(2) , div:last-child{
-    margin-left: auto;
-  }
-
+.footer-div {
   margin-top: 300px;
 
-
+  div:nth-of-type(2) , div:last-child {
+    margin-left: auto;
+  }
 }
 
-
-.footer-links{
-
-  p{
+.footer-links {
+  p {
     margin-bottom: 15px;
     color: #FF5066;
     font-weight: 600;
     font-family: 'brandontext-medium', sans-serif;
   }
 
-  li{
+  li {
     list-style: none;
      margin-bottom: 10px;
-    a{
+     
+    a {
        color: #6E6D6D;
-     }
+    }
   }
-
 }
 
-.download-app-div{
- margin-top: 20px;
+.download-app-div {
+  margin-top: 20px;
   margin-bottom: 30px;
-  a{
+  a {
     margin-right: 50px;
-    img{
+    img {
       height: 40px;
     }
   }
-
-
 }
 
-
-.social-icons{
-
-  a{
+.social-icons {
+  a {
     margin-right: 20px;
-
-    svg{
+    svg {
       height: 25px;
       width: auto;
     }
-
   }
-
 }
 
-
-.line-break{
+.line-break {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-
-.copyright{
+.copyright {
   color: #ADAAAA;
   font-size: 13px;
   margin-bottom: 20px;
