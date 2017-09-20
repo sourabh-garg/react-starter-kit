@@ -1,0 +1,252 @@
+.product-detail-div{
+  margin-top: 30px;
+
+  .product-image-flex{
+
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .product-detail-flex{
+
+    width: 55%;
+
+  }
+}
+
+.product-image-div{
+
+  img{
+
+    width: 80%;
+
+  }
+
+}
+
+
+.h3-product-title-div{
+
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #404040;
+
+}
+
+}
+
+.product-brand-name{
+
+  span{
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 18px;
+  }
+
+}
+
+.product-price-div{
+  margin-top: 15px;
+
+  .p-striked{
+
+    margin-bottom: 10px;
+    span{
+      font-size: 13px;
+      text-decoration: line-through;
+    }
+  }
+  .p-price{
+
+    span:first-child {
+      font-size: 20px;
+      font-weight: 600;
+      color: #404040;
+    }
+    span:last-child{
+      font-size: 13px;
+      color: #FF5066;
+      margin-left: 50px;
+      border: 1px solid;
+      padding: 2px 10px;
+    }
+
+  }
+
+}
+
+.available-size-div{
+  margin-top: 40px;
+}
+
+
+
+.product-detail-label{
+  color: #696969;
+  font-size: 14px;
+  font-weight: 600;
+  user-select: none;
+
+}
+
+.sizing-guide-label{
+
+  font-size: 12px;
+  font-weight: 600;
+  color:  #404040;
+  float: right;
+  margin-right: 200px;
+  padding-top: 7px;
+  //text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.avilable-size-circle-div{
+
+  margin-top: 15px;
+
+  span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #696969;
+    border: 1px solid;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all .3s;
+  }
+
+  .size-disabled{
+    background-color: #E8E7E7 !important;
+    border: 1px solid #D9D9D9 !important;
+    pointer-events: none;
+  }
+
+  span:hover, .size-selected{
+    background-color: #00aa8d !important;
+    border: 1px solid #00aa8d !important;
+    color: white !important;
+
+  }
+
+}
+
+.buy-buttons-div{
+  margin-top: 40px;
+}
+
+
+.quick-buy-btn, .quick-buy-btn:hover{
+  width: 35%;
+  height: 46px;
+  line-height: 46px;
+  border-color: #00aa8d;
+  border-radius: 2px;
+  margin-right: 5%;
+
+  span{
+    color: #00aa8d;
+    font-size: 14px;
+  }
+
+}
+
+.add-bag-btn, .add-bag-btn:hover{
+  width: 35%;
+  height: 46px;
+  line-height: 46px;
+  border-color: #00aa8d;
+  border-radius: 2px;
+  background-color: #00aa8d;
+
+  span{
+    color: white;
+    font-size: 14px;
+  }
+
+
+}
+
+
+.block-linebreak{
+  border-top: 1px dashed #e6e6e6 !important;
+}
+
+
+.offers-div{
+  margin-top: 30px;
+}
+
+
+.offer-single-div{
+
+  span{
+    padding: 5px 30px;
+    margin-top: 10px;
+    border: 1px dashed #95989A;
+    display: inline-block;
+    color : #696969;
+  }
+}
+
+
+.offer-breakline{
+  width: 60%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.delivery-info-div{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+
+.pincode-check-div{
+  width: 55%;
+  position: relative;
+
+
+}
+
+.pincode-input{
+
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+  width: 100%;
+
+}
+
+.pincode-btn{
+
+  border-radius: 1px;
+  position: absolute;
+  right: 0;
+  background-color: #6d6b6b;
+  color: white;
+  height: 34px;
+  line-height: 34px;
+  border: none;
+  padding: 0 40px;
+
+}
+
+.delivery-info-text{
+
+  margin-top: 30px;
+  font-size: 14px;
+
+}
+

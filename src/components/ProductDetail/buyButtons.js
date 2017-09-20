@@ -1,8 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import TopHeader from './topHeader';
-import MainHeader from './mainHeader';
-import './navbar.scss';
+
 
 
 class Main extends React.Component{
@@ -17,16 +15,16 @@ class Main extends React.Component{
   }
 
 
+
   render () {
 
     return (
-      <div className="container">
+      <div className="flex buy-buttons-div">
 
-        <div className="jumbotron">
-          <TopHeader />
-        </div>
 
-        <MainHeader />
+        <button className="quick-buy-btn"> <span> QUICK BUY  </span> </button>
+        <button className="add-bag-btn">   <span> ADD TO BAG </span> </button>
+
 
       </div>
     );

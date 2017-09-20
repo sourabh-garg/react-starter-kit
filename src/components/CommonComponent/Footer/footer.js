@@ -1,9 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import './footer.scss'
-import FbSvg from '../../../images/Icons/fb';
-import InstaSvg from '../../../images/Icons/insta';
-import TwitterSvg from '../../../images/Icons/twitterSvg';
+import FbSvg from '../../../images/Icons/facebook';
+import InstaSvg from '../../../images/Icons/instagram';
+import TwitterSvg from '../../../images/Icons/twitter';
 
 
 class Main extends React.Component {

@@ -1,8 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import TopHeader from './topHeader';
-import MainHeader from './mainHeader';
-import './navbar.scss';
+
 
 
 class Main extends React.Component{
@@ -17,16 +15,14 @@ class Main extends React.Component{
   }
 
 
+
   render () {
 
     return (
-      <div className="container">
+      <div className="product-image-div">
 
-        <div className="jumbotron">
-          <TopHeader />
-        </div>
 
-        <MainHeader />
+        <img src="../../images/imageSample.webp" alt=""/>
 
       </div>
     );

@@ -20,7 +20,10 @@ class Main extends React.Component{
   render () {
 
     return (
-      <div className="main-header flex">
+
+      <div className="navbar-bottom-shadow">
+
+      <div className=" jumbotron main-header flex">
 
         <a href="" className="logo">
           <img   src="../../../images/wooplr.png" alt="wooplr-home"/>
@@ -64,7 +67,7 @@ class Main extends React.Component{
         </div>
 
 
-
+      </div>
       </div>
     );
   }

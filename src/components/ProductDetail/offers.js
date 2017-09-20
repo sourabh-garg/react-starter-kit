@@ -1,8 +1,5 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import TopHeader from './topHeader';
-import MainHeader from './mainHeader';
-import './navbar.scss';
 
 
 class Main extends React.Component{
@@ -17,16 +14,23 @@ class Main extends React.Component{
   }
 
 
+
   render () {
 
     return (
-      <div className="container">
+      <div className="offers-div">
 
-        <div className="jumbotron">
-          <TopHeader />
+        <div className="offer-single-div">
+
+          <p>15% off when you order for Rs 1200+ & pay online.</p>
+
+          <span>WOOPLR15</span>
+
+          <hr className="offer-breakline"/>
+
         </div>
 
-        <MainHeader />
+
 
       </div>
     );

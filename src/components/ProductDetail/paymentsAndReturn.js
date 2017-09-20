@@ -1,8 +1,5 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import TopHeader from './topHeader';
-import MainHeader from './mainHeader';
-import './navbar.scss';
 
 
 class Main extends React.Component{
@@ -17,16 +14,13 @@ class Main extends React.Component{
   }
 
 
+
   render () {
 
     return (
-      <div className="container">
+      <div className="delivery-info-div">
 
-        <div className="jumbotron">
-          <TopHeader />
-        </div>
-
-        <MainHeader />
+        <p className="delivery-info-text">Product delivers between 24 Sep 2017 - 26 Sep 2017. Enter pin code for specific dates.</p>
 
       </div>
     );

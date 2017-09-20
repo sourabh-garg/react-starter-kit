@@ -83,7 +83,7 @@ class Carousel extends React.Component{
     }else{
       this.setPosition();
     }
-    },7000);
+    },3000);
 
     this.setState({timer: timer});
   }
