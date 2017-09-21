@@ -4,13 +4,16 @@ import SearchSvg from '../../../images/Icons/search';
 import AccountSvg from '../../../images/Icons/account';
 import BagSvg from '../../../images/Icons/bag';
 import Categories from './onHoverCategories';
-
+import {NavData} from './headerData';
 
 
 class Main extends React.Component{
 
   constructor(props) {
     super(props);
+    this.state = {show :false , active : "none"};
+    this.showCategory = this.showCategory.bind(this);
+    this.hideCategory = this.hideCategory.bind(this);
 
   }
 
@@ -18,9 +21,38 @@ class Main extends React.Component{
 
   }
 
+  showCategory(type){
+    clearTimeout(this.state.timer);
+    this.setState({show : true , active : type});
+  }
+
+  hideCategory(){
+   this.setTimer();
+  }
+
+  setTimer(){
+
+    let timer = setTimeout(() => {
+      this.setState({show : false, active : "none"});
+
+    },200);
+
+    this.setState({timer : timer});
+
+  }
 
 
   render () {
+    let navData = [];
+
+    try {
+       navData = NavData[this.state.active][0];
+
+
+    }catch(e){
+      console.log(e);
+    }
+
 
     return (
 
@@ -29,7 +61,10 @@ class Main extends React.Component{
       <div className=" jumbotron main-header flex">
 
 
-        <Categories />
+        { this.state.show ? <Categories navData = {navData}
+                                        onMouseOver={this.showCategory.bind(this, this.state.active)}
+                                        onMouseLeave={this.hideCategory}/> : "" }
+
 
         <a href="" className="logo">
           <img   src="../../../images/wooplr.png" alt="wooplr-home"/>
@@ -39,8 +74,14 @@ class Main extends React.Component{
 
         <div className="main-links">
 
-          <a href="">MEN</a>
-          <a href="">WOMEN</a>
+          <a href=""  className={this.state.active === "men" ? "active-nav-link" : "" }
+             onMouseOver={this.showCategory.bind(this, "men")}
+             onMouseLeave={this.hideCategory}>MEN </a>
+
+          <a href=""  className={this.state.active === "women" ? "active-nav-link" : "" }
+             onMouseOver={this.showCategory.bind(this, "women")}
+             onMouseLeave={this.hideCategory}>WOMEN </a>
+
           <a href="">STYLE FEED</a>
           <a href="">WOOPLRXYOU</a>
 

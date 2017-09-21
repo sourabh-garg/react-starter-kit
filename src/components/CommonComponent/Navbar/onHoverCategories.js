@@ -20,7 +20,7 @@ class Main extends React.Component{
 
   render () {
 
-    let categories = NavData.women[0].properties.map((item , i) => {
+    let categories = this.props.navData.properties.map((item , i) => {
 
       return ( <CategoryBox data = {item} key={i}/>)
 
@@ -30,9 +30,13 @@ class Main extends React.Component{
 
 
     return (
-      <div className="onHover-categories-div">
+      <div className="onHover-categories-div" onMouseOver={this.props.onMouseOver} onMouseLeave={this.props.onMouseLeave}>
 
-        {categories}
+        <div className="flex category-list-flex">
+
+          {categories}
+
+        </div>
 
       </div>
     );

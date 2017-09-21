@@ -1,8 +1,9 @@
 .expandSvg{
   svg{
     height: 10px;
+    transition: all .2s;
   }
-  transition: all .2s;
+
 }
 
 .expandSvg-reverse{
@@ -21,6 +22,7 @@
 
   margin-top: 5px;
   margin-bottom: 5px;
+  transition: all .2s;
 }
 
 .collapse{

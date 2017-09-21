@@ -140,4 +140,66 @@ export const NavData = {
       ]
     }
   ],
+
+  men: [
+    {
+      type: 'categories',
+      properties: [
+        {
+          displayName: 'T-Shirts',
+          webLink: '/collection/5307279536685056/tops',
+          properties : []
+        },
+        {
+          displayName: 'Shirts',
+          webLink: '/collection/5307279536685056/tops',
+          properties : []
+        },
+        {
+          displayName: 'Shoes',
+          webLink: '/collection/4558215362772992/shoes',
+          properties : []
+        },
+        {
+          displayName: 'Outerwear',
+          webLink: '/collection/5944427734499328/bags',
+          properties : []
+        },
+        {
+          displayName: 'Innerwear',
+          webLink: '/collection/5628380590505984/sleepwear',
+          properties : []
+        },
+        {
+          displayName: 'Athleisure',
+          webLink: '/collection/4754125854212096/outerwear',
+          properties : []
+        },
+        {
+          displayName: 'Bags',
+          webLink: '/collection/6620554274668544/activewear',
+          properties : []
+        },
+        {
+          displayName: 'Accessories',
+          webLink: '/collection/6620554274668544/activewear',
+          properties : []
+        },
+        {
+          displayName: 'Bottomwear',
+          webLink: '/collection/6620554274668544/activewear',
+          properties : []
+        },
+        {
+          displayName: 'Sale',
+          webLink: '/collection/6620554274668544/activewear',
+          properties : []
+        }
+      ]
+    }
+  ],
 };
+
+
+
+

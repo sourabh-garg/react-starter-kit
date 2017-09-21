@@ -18,11 +18,25 @@ class Main extends React.Component{
 
   render () {
 
-    console.log(this.props.data);
+    let data = this.props.data;
+    let childLinks = data.properties.map((item, i) => {
+
+      return (
+        <li key={i}><a href="">{item.displayName}</a> </li>
+      )
+
+    });
+
 
 
     return (
-      <div className="">
+      <div className="category-box">
+
+        <a href="" className="catergory-parent-link">{data.displayName}</a>
+
+        <ul className="category-links">
+          {childLinks}
+        </ul>
 
 
       </div>
