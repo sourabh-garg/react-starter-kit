@@ -89,6 +89,7 @@ class Carousel extends React.Component{
   }
 
 
+
   render(){
 
    let ImgArr;

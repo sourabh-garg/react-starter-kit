@@ -1,3 +1,5 @@
+@import '../../../styles/color';
+
 .navbar-bottom-shadow{
   padding-bottom: 10px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
@@ -14,7 +16,7 @@
 
 .top-offer{
   padding: 5px 20px;
-  background-color: #00aa8d;
+  background-color: $primary_teal;
   font-size: 11px;
   text-transform: uppercase;
   color: white;
@@ -68,16 +70,16 @@
       margin-right: 0 !important;
     }
     a:hover{
-      color: #FF5066;
-      border-bottom: 3px solid #FF5066;
+      color: $accent;
+      border-bottom: 3px solid $accent;
     }
   }
 
 }
 
 .active-nav-link{
-    color: #FF5066 !important;
-    border-bottom: 3px solid #FF5066 !important;
+    color: $accent !important;
+    border-bottom: 3px solid $accent !important;
 }
 
 
@@ -175,7 +177,7 @@
 
   font-size: 16px;
   font-family: 'brandontext-medium', sans-serif;
-  color: #FF5066;
+  color: $accent;
   margin-bottom: 10px;
   display: inline-block;
 }

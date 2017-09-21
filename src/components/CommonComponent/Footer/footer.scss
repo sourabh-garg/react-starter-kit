@@ -1,3 +1,5 @@
+@import '../../../styles/color';
+
 .footer-div {
   margin-top: 300px;
 
@@ -9,7 +11,7 @@
 .footer-links {
   p {
     margin-bottom: 15px;
-    color: #FF5066;
+    color: $accent;
     font-weight: 600;
     font-family: 'brandontext-medium', sans-serif;
   }
@@ -17,7 +19,7 @@
   li {
     list-style: none;
      margin-bottom: 10px;
-     
+
     a {
        color: #6E6D6D;
     }
