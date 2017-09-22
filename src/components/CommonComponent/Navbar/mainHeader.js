@@ -46,7 +46,7 @@ class Main extends React.Component{
     let navData = [];
 
     try {
-       navData = NavData[this.state.active][0];
+       navData = NavData[this.state.active];
 
 
     }catch(e){

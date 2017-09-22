@@ -138,7 +138,22 @@ export const NavData = {
           properties : []
         }
       ]
-    }
+    },
+
+    [
+      {
+        displayName: 'T-Shirts',
+        image: 'https://res.wooplr.com/image/upload/f_auto,q_auto,fl_lossy,c_fill,ar_2:1,w_550/banner/W-Hover-NewIn',
+        webLink: '/collection/5307279536685056/tops',
+      },
+      {
+        displayName: 'T-Shirts',
+        image: 'https://res.wooplr.com/image/upload/f_auto,q_auto,fl_lossy,c_fill,ar_2:1,w_550/banner/W-Hover-NewIn',
+        webLink: '/collection/5307279536685056/tops',
+      },
+
+
+    ]
   ],
 
   men: [
@@ -196,8 +211,31 @@ export const NavData = {
           properties : []
         }
       ]
-    }
+    },
+
+    [
+      {
+        displayName: 'T-Shirts',
+        image: 'https://res.wooplr.com/image/upload/f_auto,q_auto,fl_lossy,c_fill,ar_3:4,w_500/banner/M-Hover-Shirts',
+        webLink: '/collection/5307279536685056/tops',
+      },
+      {
+        displayName: 'T-Shirts',
+        image: 'https://res.wooplr.com/image/upload/f_auto,q_auto,fl_lossy,c_fill,ar_3:4,w_500/banner/M-Hover-Shirts',
+        webLink: '/collection/5307279536685056/tops',
+      },
+      {
+        displayName: 'T-Shirts',
+        image: 'https://res.wooplr.com/image/upload/f_auto,q_auto,fl_lossy,c_fill,ar_3:4,w_500/banner/M-Hover-Shirts',
+        webLink: '/collection/5307279536685056/tops',
+      },
+
+    ]
+
+
   ],
+
+
 };
 
 
