@@ -1,60 +1,8 @@
 @import '../../../styles/color';
 
 .footer-div {
+
   margin-top: 300px;
 
-  div:nth-of-type(2) , div:last-child {
-    margin-left: auto;
-  }
-}
-
-.footer-links {
-  p {
-    margin-bottom: 15px;
-    color: $accent;
-    font-weight: 600;
-    font-family: 'brandontext-medium', sans-serif;
-  }
-
-  li {
-    list-style: none;
-     margin-bottom: 10px;
-
-    a {
-       color: #6E6D6D;
-    }
-  }
-}
-
-.download-app-div {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  a {
-    margin-right: 50px;
-    img {
-      height: 40px;
-    }
-  }
-}
-
-.social-icons {
-  a {
-    margin-right: 20px;
-    svg {
-      height: 25px;
-      width: auto;
-    }
-  }
-}
-
-.line-break {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.copyright {
-  color: #ADAAAA;
-  font-size: 13px;
-  margin-bottom: 20px;
 }
 

@@ -1,63 +1,6 @@
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 769px) {
 
 
-
-  @font-face {
-    font-family: brandontext-regular;
-    src: url(./Fonts/brandontext-regular.woff);
-  }
-
-  @font-face {
-    font-family: brandontext-medium;
-    src: url(./Fonts/brandontext-medium.woff);
-  }
-
-
-
-  * {
-    margin: 0;
-    padding: 0;
-    color: #95989A;
-    letter-spacing: .2px;
-  }
-
-  *:focus {
-    outline: none;
-    -ms-touch-action: manipulation; /* IE10  */
-    touch-action: manipulation; /* IE11+ */
-    -webkit-touch-callout: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
-
-  body {
-    font-family: 'brandontext-regular', sans-serif;
-    background-color: white;
-
-  }
-
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
-  input[type=number] {
-    -moz-appearance: textfield;
-  }
-
-  .jumbotron{
-    width: 95%;
-    margin: auto;
-  }
-
-  .flex{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .text-center{
-    text-align: center;
-  }
 
 
 

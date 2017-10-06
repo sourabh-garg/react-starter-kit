@@ -6,7 +6,7 @@
   import 'babel-polyfill';
 
   import { Router , browserHistory} from "react-router";
-  import serverRoutes from './Routes/serverRoutes';
+  import routes from './routes/route';
   import {Provider} from 'react-redux';
   import configureStore from './store/configureStore';
 
@@ -21,7 +21,7 @@ if(typeof window !== 'undefined') {
   let viewport = window.matchMedia("screen and (max-width: 768px)");
 
   var stateWithViewPort = Object.assign({}, preloadedState , {
-        ViewPort : viewport.matches ?  true : false
+        ViewPort : viewport.matches
      });
 
 
@@ -32,7 +32,7 @@ if(typeof window !== 'undefined') {
       <Provider store={store}>
        <Router
         history={browserHistory}
-        routes={serverRoutes}
+        routes={routes}
       />
      </Provider>, document.getElementById('app')
   );

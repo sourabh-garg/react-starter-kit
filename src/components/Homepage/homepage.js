@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Carousel from '../CommonComponent/Carousel/carousel';
-
+import FeedPage from '../CommonComponent/FeedCard/feedPage';
 
 
 
@@ -24,6 +24,8 @@ class Main extends React.Component{
 
 
        {/*<Carousel />*/}
+
+       <FeedPage />
 
 
       </div>

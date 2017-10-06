@@ -25,8 +25,6 @@ class Main extends React.Component {
 
         <Footer />
 
-
-
       </div>
     );
   }

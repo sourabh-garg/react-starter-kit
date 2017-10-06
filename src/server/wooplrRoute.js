@@ -8,7 +8,7 @@ import {createStore , combineReducers} from 'redux';
 const renderToString = require('react-dom/server').renderToString;
 const match = require('react-router').match;
 const Provider = require('react-redux').Provider;
-const routes = require('../Routes/serverRoutes');
+const routes = require('../routes/route');
 
 import {renderFullPage} from './index';
 import Helmet from 'react-helmet';

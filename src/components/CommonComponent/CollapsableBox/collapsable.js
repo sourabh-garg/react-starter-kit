@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import Expand from '../../../images/Icons/arrow';
 
 
-import './collapsable.scss'
+import './collapsable.scss';
 
 class Main extends React.Component{
 
